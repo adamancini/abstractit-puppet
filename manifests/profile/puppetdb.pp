@@ -138,6 +138,4 @@ class puppet::profile::puppetdb (
     jdbc_ssl_properties => $jdbc_ssl_properties,
   }
 
-  class { '::puppetdb::master::config': }
-
 }
